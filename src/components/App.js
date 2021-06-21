@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import youtube from "../apis/youtube";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
+
+// const App = () => {};
 
 class App extends React.Component {
   state = { videos: [], selectedVideo: null };
