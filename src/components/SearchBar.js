@@ -22,7 +22,7 @@ const SearchBar = ({ onFormSubmit }) => {
           <button
             style={{ marginLeft: "0.2rem" }}
             className="ui secondary button"
-            onClick={this.onFormSubmit}
+            onClick={onSubmit}
           >
             Search
           </button>
@@ -31,9 +31,5 @@ const SearchBar = ({ onFormSubmit }) => {
     </div>
   );
 };
-
-class SearchBar extends React.Component {
-  render() {}
-}
 
 export default SearchBar;
